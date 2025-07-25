@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "My First DevSecOps Post"
 date: 2025-07-25
 category: devsecops

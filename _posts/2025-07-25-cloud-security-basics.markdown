@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: default
 title: "Cloud Security Basics"
-date: 2025-07-26
+date: 2025-07-25
 category: cloudsecurity
 ---
 
