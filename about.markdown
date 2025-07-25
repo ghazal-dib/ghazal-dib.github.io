@@ -1,18 +1,19 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
 
 
-[jekyll-organization]: https://github.com/jekyll
+# About Ghazal Dib
+
+Welcome to my personal website! This site is built using **Jekyll**, a simple and flexible static site generator.
+
+My name is Ghazal Dib, and I’m passionate about web development and creating beautiful, functional websites.
+
+Here you will find my projects, tutorials, and thoughts on technology.
+
+Feel free to explore and contact me through my social media.
+
+Thank you for visiting!

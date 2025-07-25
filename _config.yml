@@ -18,21 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "My Hacker Blog"
+title: "Your awesome title"
 email: ghazaldib96@gmail.com
-description: "A cool hacker-themed blog with Jekyll."
-baseurl: ""
-url: "https://ghazal-dib.github.io"
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+baseurl: "" # إذا موقعك على الدومين الرئيسي خليه فاضي، لو على subfolder حط مثلاً "/blog"
+url: "https://ghazal-dib.github.io" # رابط موقعك
 
 twitter_username: ghazal-dib
 github_username: ghazal-dib
 
-# Build settings
-remote_theme: pages-themes/hacker@v0.2.0
+theme: jekyll-theme-midnight
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
+
 
 # Exclude from processing.
 # exclude:
