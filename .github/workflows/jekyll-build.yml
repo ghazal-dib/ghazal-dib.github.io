@@ -29,10 +29,12 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
-      - name: Security scan with bundler-audit
-        run: |
-          gem install bundler-audit
-          bundler-audit check --update
-
-      - name: Build Jekyll site
-        run: bundle exec jekyll build
+  security_scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2
+      - run: gem install bundler-audit
+      - run: bundler-audit check --update
